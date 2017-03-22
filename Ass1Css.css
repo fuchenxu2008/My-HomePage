@@ -6,8 +6,8 @@ body{
     background-color: #30343A;
     padding: 0.1px;
     color: white;
-    font-family: 'Luckiest Guy', cursive;
-    letter-spacing: 3px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
     text-align: center;
 }
 #navibar{
@@ -261,8 +261,16 @@ body{
 }
 #footer{
     float: left;
-    background-color: rgb(49,49,49);
+    background-color: rgb(57,60,68);
     width: 101.3%;
-    height: 43px;
+    height: 35px;
     margin-left: -8px;
+}
+#footer p{
+    color: rgb(128,129,135);
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 14px;
+    margin-top: 7px;
+    letter-spacing: 1px;
 }
