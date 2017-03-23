@@ -1,3 +1,7 @@
+body,html{
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
 #Name{
     background-color: #30343A;
     padding: 0.1px;
