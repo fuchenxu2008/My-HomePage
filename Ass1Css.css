@@ -64,11 +64,9 @@ body,html{
 }
 /*Big Pic*/
 #Intro-header{
-    height: 50%;
-    width: 100%;
     background-image: url("bg1.jpg");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin-top: 8px;
