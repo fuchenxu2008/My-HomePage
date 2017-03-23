@@ -60,11 +60,11 @@
     background-image: url("bg1.jpg");
     background-position: center;
     background-size: cover;
+    height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin-top: 8px;
-    padding-top: 12em;
-    padding-bottom: 12em;
+
     color: white;
     text-align: center;
 
