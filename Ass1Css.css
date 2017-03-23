@@ -10,7 +10,7 @@
 #navibar{
     background-color: white;
     list-style-type: none;
-    height: 60px;
+    height: 52px;
 }
 #steve{
     float: left;
@@ -53,12 +53,14 @@
 #navibar li a:hover{
     background-color: rgb(33, 37, 46);
     color: white;
+    transition: all 0.5s ease 0s;
 }
 /*Big Pic*/
 #Intro-header{
     background-image: url("bg1.jpg");
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     margin-top: 8px;
     padding-top: 12em;
     padding-bottom: 12em;
@@ -91,6 +93,7 @@
     border: rgb(33, 37, 46) solid;
     width: 30em;
     background-color: rgb(33, 37, 46);
+    transition: all 0.5s ease 0s;
 }
 /*Intro*/
 #Intro-pic{
@@ -143,6 +146,7 @@
     border: rgb(33, 37, 46) solid;
     width: 30em;
     background-color: rgb(33, 37, 46);
+    transition: all 0.5s ease 0s;
 }
 /*Hobbies*/
 #Hobby-pic{
@@ -195,6 +199,7 @@
     border: rgb(33, 37, 46) solid;
     width: 30em;
     background-color: rgb(33, 37, 46);
+    transition: all 0.5s ease 0s;
 }
 /*Link*/
 #Link-pic{
@@ -247,6 +252,7 @@
     border: rgb(33, 37, 46) solid;
     width: 30em;
     background-color: rgb(33, 37, 46);
+    transition: all 0.5s ease 0s;
 }
 #contact{
     float: left;
