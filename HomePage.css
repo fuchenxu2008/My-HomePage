@@ -1,19 +1,23 @@
 body,html{
 	height:100%;
 	width: 100%;
-	margin:0px;
+	margin:0;
 	padding:0;
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
 #Name{
+	display: inline-block;
     background-color: #30343A;
-    padding: 0.1px;
     width: 100%;
     color: white;
     font-family: 'Fjalla One', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
+}
+#Name p{
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
 }
 #navibar{
     background-color: white;
@@ -27,7 +31,7 @@ body,html{
     margin-left: 35px;
     margin-top: 15px;
 }
-#social{
+.social{
     float: right;
     display: inline-block;
     margin-right: 50px;
@@ -46,7 +50,7 @@ body,html{
 #navibar li{
     font-size: 18px;
     margin-top: 5px;
-    margin-left: 1px;
+    margin-left: 0px;
     float:left;
     list-style:none;
     font-family: 'Fjalla One', sans-serif;
@@ -81,10 +85,11 @@ body,html{
     overflow: hidden;
 }
 #Intro-header h1{
+	color: rgba(233,255,39,1);
     font-size: 90px;
     font-family: 'Raleway', sans-serif;
-	font-weight: 200;
-	text-shadow: 0px 10px 30px rgba(233,255,39,.5);
+	font-weight: 400;
+	text-shadow: 0px 10px 30px rgba(0,0,0,.5);
 	transform-style: preserve-3d;
 }
 #Intro-header hr{
@@ -133,182 +138,38 @@ body,html{
     background-color: rgb(33, 37, 46);
     transition: all 0.5s ease 0s;
 }
-/*Intro*/
-#Intro-pic{
-    background-image: url("Harbin.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 45em;
-    width: 50%;
-    float: left;
-}
-#space1{
-    float: left;
-    background-color: white;
-    width: 50%;
-    height: 720px;
-}
-#Introduction{
-    text-align: center;
-    color: rgb(35,34,34);
-    padding: 50px;
-    line-height: 1.8em;
-    font-size: 16px;
-    font-family: 'Oswald', sans-serif;
-}
-#Introduction h1{
-    line-height: 1.5em;
-    font-size: 24px;
-    margin-top: 80px;
-}
-#Introduction p{
-    margin-top: 80px;
-}
-#button2 p{
-    font-size: 25px;
-    font-family: 'Fjalla One', sans-serif;
-    margin-top: 400em;
-
-}
-#button2 a{
-    color: rgb(35,34,34);
-    border: rgb(35,34,34) solid;
-    text-decoration: none;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-#button2 a:hover{
-    color: white;
-    border: rgb(33, 37, 46) solid;
-    width: 30em;
-    background-color: rgb(33, 37, 46);
-    transition: all 0.5s ease 0s;
-}
-/*Hobbies*/
-#Hobby-pic{
-    background-image: url("pic2.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 45em;
-    width: 50%;
-    float: right;
-}
-#space2{
-    float: right;
-    background-color: white;
-    width: 50%;
-    height: 720px;
-}
-#Hobbies{
-    text-align: center;
-    color: rgb(35,34,34);
-    padding: 50px;
-    line-height: 1.8em;
-    font-size: 16px;
-    font-family: 'Oswald', sans-serif;
-}
-#Hobbies h1{
-    line-height: 1.5em;
-    font-size: 24px;
-    margin-top: 80px;
-}
-#Hobbies p{
-    margin-top: 80px;
-}
-#button3 p{
-    font-size: 25px;
-    font-family: 'Fjalla One', sans-serif;
-    margin-top: 400em;
-
-}
-#button3 a{
-    color: rgb(35,34,34);
-    border: rgb(35,34,34) solid;
-    text-decoration: none;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-#button3 a:hover{
-    color: white;
-    border: rgb(33, 37, 46) solid;
-    width: 30em;
-    background-color: rgb(33, 37, 46);
-    transition: all 0.5s ease 0s;
-}
-/*Link*/
-#Link-pic{
-    background-image: url("pic3.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 45em;
-    width: 50%;
-    float: left;
-}
-#space3{
-    float: left;
-    background-color: white;
-    width: 50%;
-    height: 720px;
-}
-#Link{
-    text-align: center;
-    color: rgb(35,34,34);
-    padding: 50px;
-    line-height: 1.8em;
-    font-size: 16px;
-    font-family: 'Oswald', sans-serif;
-}
-#Link h1{
-    line-height: 1.5em;
-    font-size: 24px;
-    margin-top: 80px;
-}
-#Link p{
-    margin-top: 80px;
-}
-#button4 p{
-    font-size: 25px;
-    font-family: 'Fjalla One', sans-serif;
-    margin-top: 400em;
-
-}
-#button4 a{
-    color: rgb(35,34,34);
-    border: rgb(35,34,34) solid;
-    text-decoration: none;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-#button4 a:hover{
-    color: white;
-    border: rgb(33, 37, 46) solid;
-    width: 30em;
-    background-color: rgb(33, 37, 46);
-    transition: all 0.5s ease 0s;
-}
-#contact{
+.contact{
     float: left;
     background-color: black;
     width: 100%;
-    height: 320px;
+    height: 40%;
 	box-shadow: 0px -10px 20px rgba(0, 0, 0, .7);
 	transform-style: preserve-3d;
 }
-#contact table{
+.contact table{
     color: white;
     font-family: 'Oswald', sans-serif;
-    margin: 70px;
-    margin-left: 145px;
+    margin: 40px;
+    margin-left: 130px;
     font-size: 18px;
 }
-#contact td{
+.contact thead{
+	font-size: 1.25em;
+}
+.contact td{
+	padding-top: 1em;
     padding-right: 4em;
+}
+.contact a{
+	color: white;
+}
+.contact a:hover{
+	text-decoration: none;
+}
+.social2{
+	float: right;
+	margin-right: 130px;
+	margin-top: -90px;
 }
 #footer{
     float: left;
@@ -322,5 +183,4 @@ body,html{
     font-family: 'Fjalla One', sans-serif;
     font-size: 14px;
     margin-top: 7px;
-    letter-spacing: 1px;
 }

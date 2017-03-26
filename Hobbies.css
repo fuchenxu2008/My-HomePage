@@ -1,0 +1,353 @@
+body,html{
+	height:100%;
+	width: 100%;
+	margin:0;
+	padding:0;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+#Name{
+	display: inline-block;
+    background-color: #30343A;
+    width: 100%;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+#Name p{
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+}
+#navibar{
+    background-color: white;
+    list-style-type: none;
+    height: 59.5px;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, .7);
+	transform-style: preserve-3d;
+}
+#steve{
+    float: left;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.social{
+    float: right;
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+#twitter{
+    margin-left: 10px;
+}
+#instagram{
+    margin-left: 10px;
+}
+#navibar ul{
+    display: inline-block;
+    margin-left: -25px;
+}
+#navibar li{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 0px;
+    float:left;
+    list-style:none;
+    font-family: 'Fjalla One', sans-serif;
+}
+#navibar li a{
+    text-decoration: none;
+    padding-top: 21.2px;
+    padding-bottom: 16.8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#navibar li a:hover{
+    background-color: rgb(33, 37, 46);
+    color: white;
+    transition: all 0.5s ease 0s;
+}
+#myinfo{
+	color: rgb(33, 37, 46);
+}
+#hobbies{
+    background-color: rgb(33, 37, 46);
+	color: white;
+}
+#links{
+	color: rgb(33, 37, 46);
+}
+/*Big Pic*/
+#Intro-header{
+    float: left;
+    width: 100%;
+    background-image: url("bg5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+#Intro-header h1{
+	color: white;
+    font-size: 90px;
+    font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	text-shadow: 0px 10px 20px rgba(0,0,0,1);
+	transform-style: preserve-3d;
+}
+#Intro-header hr{
+    width: 60%;
+	margin-top: 10px;
+	height: 0.9px;
+	border: 0;
+	color: white;
+	background-color: white;
+}
+#Intro-header h2{
+	margin-top: -30px;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	line-height: 30px;
+	text-shadow: 0px 10px 20px rgba(0,0,0,1);
+	transform-style: preserve-3d;
+}
+#Intro-header h3{
+	margin-top: 0px;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	line-height: 30px;
+	text-shadow: 0px 10px 30px rgba(0,0,0,.7);
+	transform-style: preserve-3d;
+}
+#Intro-header p{
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 5px;
+}
+#Intro-header a{
+    color: white;
+    border: white solid;
+    text-decoration: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#Intro-header a:hover{
+    border: rgb(33, 37, 46) solid;
+    width: 30em;
+    background-color: rgb(33, 37, 46);
+    transition: all 0.5s ease 0s;
+}
+/*Intro*/
+#Intro-pic{
+    background-image: url("Harbin.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 45em;
+    width: 50%;
+    float: left;
+}
+#space1{
+    float: left;
+    background-color: white;
+    width: 50%;
+    height: 720px;
+}
+#Introduction{
+    text-align: center;
+    color: rgb(35,34,34);
+    padding: 50px;
+    line-height: 1.8em;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+#Introduction h1{
+    line-height: 1.5em;
+    font-size: 24px;
+    margin-top: 80px;
+}
+#Introduction p{
+    margin-top: 80px;
+}
+#button2 p{
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 400em;
+
+}
+#button2 a{
+    color: rgb(35,34,34);
+    border: rgb(35,34,34) solid;
+    text-decoration: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#button2 a:hover{
+    color: white;
+    border: rgb(33, 37, 46) solid;
+    width: 30em;
+    background-color: rgb(33, 37, 46);
+    transition: all 0.5s ease 0s;
+}
+/*Hobbies*/
+#Hobby-pic{
+    background-image: url("pic2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 45em;
+    width: 50%;
+    float: right;
+}
+#space2{
+    float: right;
+    background-color: white;
+    width: 50%;
+    height: 720px;
+}
+#Hobbies{
+    text-align: center;
+    color: rgb(35,34,34);
+    padding: 50px;
+    line-height: 1.8em;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+#Hobbies h1{
+    line-height: 1.5em;
+    font-size: 24px;
+    margin-top: 80px;
+}
+#Hobbies p{
+    margin-top: 80px;
+}
+#button3 p{
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 400em;
+
+}
+#button3 a{
+    color: rgb(35,34,34);
+    border: rgb(35,34,34) solid;
+    text-decoration: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#button3 a:hover{
+    color: white;
+    border: rgb(33, 37, 46) solid;
+    width: 30em;
+    background-color: rgb(33, 37, 46);
+    transition: all 0.5s ease 0s;
+}
+/*Link*/
+#Link-pic{
+    background-image: url("pic3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 45em;
+    width: 50%;
+    float: left;
+}
+#space3{
+    float: left;
+    background-color: white;
+    width: 50%;
+    height: 720px;
+}
+#Link{
+    text-align: center;
+    color: rgb(35,34,34);
+    padding: 50px;
+    line-height: 1.8em;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+#Link h1{
+    line-height: 1.5em;
+    font-size: 24px;
+    margin-top: 80px;
+}
+#Link p{
+    margin-top: 80px;
+}
+#button4 p{
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 400em;
+
+}
+#button4 a{
+    color: rgb(35,34,34);
+    border: rgb(35,34,34) solid;
+    text-decoration: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#button4 a:hover{
+    color: white;
+    border: rgb(33, 37, 46) solid;
+    width: 30em;
+    background-color: rgb(33, 37, 46);
+    transition: all 0.5s ease 0s;
+}
+.contact{
+    float: left;
+    background-color: black;
+    width: 100%;
+    height: 40%;
+	box-shadow: 0px -10px 20px rgba(0, 0, 0, .7);
+	transform-style: preserve-3d;
+}
+.contact table{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin: 40px;
+    margin-left: 130px;
+    font-size: 18px;
+}
+.contact thead{
+	font-size: 1.25em;
+}
+.contact td{
+	padding-top: 1em;
+    padding-right: 4em;
+}
+.contact a{
+	color: white;
+}
+.contact a:hover{
+	text-decoration: none;
+}
+.social2{
+	float: right;
+	margin-right: 130px;
+	margin-top: -90px;
+}
+#footer{
+    float: left;
+    background-color: rgb(57,60,68);
+    width: 100%;
+    height: 35px;
+}
+#footer p{
+    color: rgb(128,129,135);
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 14px;
+    margin-top: 7px;
+}
