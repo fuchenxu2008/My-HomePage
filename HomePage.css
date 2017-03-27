@@ -150,6 +150,7 @@ body,html{
     color: white;
     font-family: 'Oswald', sans-serif;
     margin: 40px;
+	padding-bottom: 40px;
     margin-left: 130px;
     font-size: 18px;
 }

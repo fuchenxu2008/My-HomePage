@@ -86,8 +86,8 @@ body,html{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding-top: 10em;
-    padding-bottom: 10em;
+    padding-top: 11em;
+    padding-bottom: 11em;
     color: white;
     text-align: center;
     overflow: hidden;
@@ -99,14 +99,6 @@ body,html{
 	font-weight: 400;
 	text-shadow: 0px 10px 20px rgba(0,0,0,1);
 	transform-style: preserve-3d;
-}
-#Intro-header hr{
-    width: 60%;
-	margin-top: 10px;
-	height: 0.9px;
-	border: 0;
-	color: white;
-	background-color: white;
 }
 #Intro-header h2{
 	margin-top: -30px;
@@ -146,9 +138,71 @@ body,html{
     background-color: rgb(33, 37, 46);
     transition: all 0.5s ease 0s;
 }
-/*Intro*/
-#Intro-pic{
-    background-image: url("Harbin.jpg");
+#Fitness-header{
+    float: left;
+    width: 100%;
+    background-image: url("fitness1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 11em;
+    padding-bottom: 11em;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0px -10px 20px rgba(0, 0, 0, .7);
+	transform-style: preserve-3d;
+}
+#Fitness-header h1{
+	color: white;
+    font-size: 90px;
+    font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	text-shadow: 0px 10px 20px rgba(0,0,0,1);
+	transform-style: preserve-3d;
+}
+#Fitness-header h2{
+	margin-top: -30px;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	line-height: 30px;
+	text-shadow: 0px 10px 20px rgba(0,0,0,1);
+	transform-style: preserve-3d;
+}
+#Fitness-header h3{
+	margin-top: 0px;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	line-height: 30px;
+	text-shadow: 0px -10px 30px rgba(0,0,0,.7);
+	transform-style: preserve-3d;
+}
+#Fitness-header p{
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 5px;
+}
+#Fitness-header a{
+    color: white;
+    border: white solid;
+    text-decoration: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#Fitness-header a:hover{
+    border: rgb(33, 37, 46) solid;
+    width: 30em;
+    background-color: rgb(33, 37, 46);
+    transition: all 0.5s ease 0s;
+}
+/*Fitness*/
+#Fitness-pic{
+    background-image: url("fitness2.jpg");
     background-size: cover;
     background-position: center;
     height: 45em;
@@ -161,7 +215,7 @@ body,html{
     width: 50%;
     height: 720px;
 }
-#Introduction{
+#Fitness{
     text-align: center;
     color: rgb(35,34,34);
     padding: 50px;
@@ -169,12 +223,12 @@ body,html{
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
 }
-#Introduction h1{
+#Fitness h1{
     line-height: 1.5em;
     font-size: 24px;
     margin-top: 80px;
 }
-#Introduction p{
+#Fitness p{
     margin-top: 80px;
 }
 #button2 p{
@@ -199,9 +253,71 @@ body,html{
     background-color: rgb(33, 37, 46);
     transition: all 0.5s ease 0s;
 }
-/*Hobbies*/
-#Hobby-pic{
-    background-image: url("pic2.jpg");
+#Apple-header{
+    float: left;
+    width: 100%;
+    background-image: url("apple1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 11em;
+    padding-bottom: 11em;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0px -10px 20px rgba(0, 0, 0, .7);
+	transform-style: preserve-3d;
+}
+#Apple-header h1{
+	color: white;
+    font-size: 90px;
+    font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	text-shadow: 0px 10px 20px rgba(0,0,0,1);
+	transform-style: preserve-3d;
+}
+#Apple-header h2{
+	margin-top: -30px;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	line-height: 30px;
+	text-shadow: 0px 10px 20px rgba(0,0,0,1);
+	transform-style: preserve-3d;
+}
+#Apple-header h3{
+	margin-top: 0px;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	line-height: 30px;
+	text-shadow: 0px -10px 30px rgba(0,0,0,.7);
+	transform-style: preserve-3d;
+}
+#Apple-header p{
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 5px;
+}
+#Apple-header a{
+    color: white;
+    border: white solid;
+    text-decoration: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#Apple-header a:hover{
+    border: rgb(33, 37, 46) solid;
+    width: 30em;
+    background-color: rgb(33, 37, 46);
+    transition: all 0.5s ease 0s;
+}
+/*Apple*/
+#Apple-pic{
+    background-image: url("apple3.jpg");
     background-size: cover;
     background-position: center;
     height: 45em;
@@ -214,7 +330,7 @@ body,html{
     width: 50%;
     height: 720px;
 }
-#Hobbies{
+#Apple{
     text-align: center;
     color: rgb(35,34,34);
     padding: 50px;
@@ -222,13 +338,13 @@ body,html{
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
 }
-#Hobbies h1{
+#Apple h1{
     line-height: 1.5em;
     font-size: 24px;
     margin-top: 80px;
 }
-#Hobbies p{
-    margin-top: 80px;
+#Apple p{
+    margin-top: 60px;
 }
 #button3 p{
     font-size: 25px;
@@ -252,9 +368,71 @@ body,html{
     background-color: rgb(33, 37, 46);
     transition: all 0.5s ease 0s;
 }
-/*Link*/
-#Link-pic{
-    background-image: url("pic3.jpg");
+/*Code*/
+#Code-header{
+    float: left;
+    width: 100%;
+    background-image: url("code2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 11em;
+    padding-bottom: 11em;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0px -10px 20px rgba(0, 0, 0, .7);
+	transform-style: preserve-3d;
+}
+#Code-header h1{
+	color: white;
+    font-size: 90px;
+    font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	text-shadow: 0px 10px 20px rgba(0,0,0,1);
+	transform-style: preserve-3d;
+}
+#Code-header h2{
+	margin-top: -30px;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	line-height: 30px;
+	text-shadow: 0px 10px 20px rgba(0,0,0,1);
+	transform-style: preserve-3d;
+}
+#Code-header h3{
+	margin-top: 0px;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	line-height: 30px;
+	text-shadow: 0px -10px 30px rgba(0,0,0,.7);
+	transform-style: preserve-3d;
+}
+#Code-header p{
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 5px;
+}
+#Code-header a{
+    color: white;
+    border: white solid;
+    text-decoration: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#Code-header a:hover{
+    border: rgb(33, 37, 46) solid;
+    width: 30em;
+    background-color: rgb(33, 37, 46);
+    transition: all 0.5s ease 0s;
+}
+#Code-pic{
+    background-image: url("code1.jpg");
     background-size: cover;
     background-position: center;
     height: 45em;
@@ -267,7 +445,7 @@ body,html{
     width: 50%;
     height: 720px;
 }
-#Link{
+#Code{
     text-align: center;
     color: rgb(35,34,34);
     padding: 50px;
@@ -275,12 +453,12 @@ body,html{
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
 }
-#Link h1{
+#Code h1{
     line-height: 1.5em;
     font-size: 24px;
     margin-top: 80px;
 }
-#Link p{
+#Code p{
     margin-top: 80px;
 }
 #button4 p{
