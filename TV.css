@@ -68,20 +68,20 @@ body,html{
     transition: all 0.5s ease 0s;
 }
 #myinfo{
-	background-color: rgb(33, 37, 46);
-	color: white;
+	color: rgb(33, 37, 46);
 }
 #hobbies{
-	color: rgb(33, 37, 46);
+    color: rgb(33, 37, 46);
 }
 #TV{
-	color: rgb(33, 37, 46);
+    background-color: rgb(33, 37, 46);
+	color: white;
 }
-/*Big Pic*/
-#Intro-header{
+/*TV*/
+#TV-header{
     float: left;
     width: 100%;
-    background-image: url("bg2.jpg");
+    background-image: url("dylan3.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -92,7 +92,7 @@ body,html{
     text-align: center;
     overflow: hidden;
 }
-#Intro-header h1{
+#TV-header h1{
 	color: white;
     font-size: 90px;
     font-family: 'Raleway', sans-serif;
@@ -100,7 +100,7 @@ body,html{
 	text-shadow: 0px 10px 20px rgba(0,0,0,1);
 	transform-style: preserve-3d;
 }
-#Intro-header hr{
+#TV-header hr{
     width: 60%;
 	margin-top: 10px;
 	height: 0.9px;
@@ -108,7 +108,7 @@ body,html{
 	color: white;
 	background-color: white;
 }
-#Intro-header h2{
+#TV-header h2{
 	margin-top: -30px;
     font-size: 50px;
     font-family: 'Raleway', sans-serif;
@@ -117,7 +117,7 @@ body,html{
 	text-shadow: 0px 10px 20px rgba(0,0,0,1);
 	transform-style: preserve-3d;
 }
-#Intro-header h3{
+#TV-header h3{
 	margin-top: 0px;
     font-size: 25px;
     font-family: 'Josefin Sans', sans-serif;
@@ -126,12 +126,12 @@ body,html{
 	text-shadow: 0px 10px 30px rgba(0,0,0,.7);
 	transform-style: preserve-3d;
 }
-#Intro-header p{
+#TV-header p{
     font-size: 25px;
     font-family: 'Fjalla One', sans-serif;
     padding: 5px;
 }
-#Intro-header a{
+#TV-header a{
     color: white;
     border: white solid;
     text-decoration: none;
@@ -140,42 +140,45 @@ body,html{
     padding-left: 50px;
     padding-right: 50px;
 }
-#Intro-header a:hover{
+#TV-header a:hover{
     border: rgb(33, 37, 46) solid;
     width: 30em;
     background-color: rgb(33, 37, 46);
     transition: all 0.5s ease 0s;
 }
-/*Intro*/
-#Intro-pic{
-    background-image: url("Harbin.jpg");
+/*teenwolf*/
+#teenwolf-pic{
+    background-image: url("teenwolf.jpg");
     background-size: cover;
     background-position: center;
-    height: 45em;
-    width: 50%;
+    height: 30em;
+    width: 60%;
     float: left;
 }
 #space1{
     float: left;
     background-color: white;
-    width: 50%;
-    height: 720px;
+    width: 40%;
+    height: 30em;
 }
-#Introduction{
+#teenwolf{
     text-align: center;
     color: rgb(35,34,34);
-    padding: 50px;
+    padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
     line-height: 1.8em;
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
 }
-#Introduction h1{
+#teenwolf h1{
     line-height: 1.5em;
     font-size: 24px;
-    margin-top: 80px;
+    margin-top: 45px;
 }
-#Introduction p{
-    margin-top: 80px;
+#teenwolf p{
+    margin-top: 40px;
 }
 #button2 p{
     font-size: 25px;
@@ -199,22 +202,26 @@ body,html{
     background-color: rgb(33, 37, 46);
     transition: all 0.5s ease 0s;
 }
-/*Hobbies*/
-#Hobby-pic{
-    background-image: url("xjtlu.jpg");
+/*flash*/
+#flash-pic{
+    background-image: url("flash.jpg");
     background-size: cover;
     background-position: center;
-    height: 45em;
-    width: 50%;
+    height: 30em;
+    width: 60%;
     float: right;
 }
 #space2{
     float: right;
     background-color: white;
-    width: 50%;
-    height: 720px;
+    width: 40%;
+    height: 30em;
 }
-#Hobbies{
+#flash{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
     text-align: center;
     color: rgb(35,34,34);
     padding: 50px;
@@ -222,13 +229,13 @@ body,html{
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
 }
-#Hobbies h1{
+#flash h1{
     line-height: 1.5em;
     font-size: 24px;
-    margin-top: 80px;
+    margin-top: 10px;
 }
-#Hobbies p{
-    margin-top: 80px;
+#flash p{
+    margin-top: 25px;
 }
 #button3 p{
     font-size: 25px;
@@ -252,22 +259,26 @@ body,html{
     background-color: rgb(33, 37, 46);
     transition: all 0.5s ease 0s;
 }
-/*TV*/
-#TV-pic{
-    background-image: url("pic3.jpg");
+/*strange*/
+#strange-pic{
+    background-image: url("strange.jpg");
     background-size: cover;
     background-position: center;
-    height: 45em;
-    width: 50%;
+    height: 30em;
+    width: 60%;
     float: left;
 }
 #space3{
     float: left;
     background-color: white;
-    width: 50%;
-    height: 720px;
+    width: 40%;
+    height: 30em;
 }
-#TV{
+#strange{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
     text-align: center;
     color: rgb(35,34,34);
     padding: 50px;
@@ -275,13 +286,13 @@ body,html{
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
 }
-#TV h1{
+#strange h1{
     line-height: 1.5em;
     font-size: 24px;
-    margin-top: 80px;
+    margin-top: 10px;
 }
-#TV p{
-    margin-top: 80px;
+#strange p{
+    margin-top: 40px;
 }
 #button4 p{
     font-size: 25px;
@@ -337,6 +348,10 @@ body,html{
 	float: right;
 	margin-right: 130px;
 	margin-top: -90px;
+}
+#dylan{
+	float: right;
+	margin-top: -470px;
 }
 #footer{
     float: left;
