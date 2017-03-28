@@ -504,7 +504,9 @@ body,html{
 .contact table{
 	color: white;
     font-family: 'Oswald', sans-serif;
-    margin: 40px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 5%;
     margin-left: 100px;
     font-size: 18px;
 }
@@ -522,7 +524,7 @@ body,html{
 }
 .social2{
 	float: right;
-	margin-right: 200px;
+	margin-right: 5%;
 	margin-top: -100px;
 }
 #footer{
