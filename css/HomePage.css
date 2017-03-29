@@ -94,14 +94,14 @@ body,html{
 }
 #Intro-header hr{
     width: 60%;
-	margin-top: 10px;
+	margin-top: -55px;
 	height: 0.9px;
 	border: 0;
 	color: white;
 	background-color: white;
 }
 #Intro-header h2{
-	margin-top: -30px;
+	margin-top: 30px;
     font-size: 50px;
     font-family: 'Raleway', sans-serif;
 	font-weight: 200;
