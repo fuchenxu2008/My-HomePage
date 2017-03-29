@@ -1,9 +1,10 @@
+/*Configure The WebPage Global Settings*/
 body,html{
-	height:100%;
+	height:100%;		/*The Web Parent visual set to 100%*/
 	width: 100%;
 	margin:0;
 	padding:0;
-	overflow-y: scroll;
+	overflow-y: scroll;/*To hide the overflow part*/
 	overflow-x: hidden;
 }
 #Name{
@@ -21,9 +22,9 @@ body,html{
 }
 #navibar{
     background-color: white;
-    list-style-type: none;
+    list-style-type: none;/*Eliminate the Bullet*/
     height: 59.5px;
-	box-shadow: 0px 10px 20px rgba(0, 0, 0, .7);
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, .7);/*To cast a shadow of partially transparent black*/
 	transform-style: preserve-3d;
 }
 #steve{
@@ -58,7 +59,7 @@ body,html{
 #navibar li a{
     color: rgb(35,34,34);
     background-color: rgba(255, 255, 255, 0.3);
-    text-decoration: none;
+    text-decoration: none;/*Eliminate the Underline*/
     padding-top: 21.2px;
     padding-bottom: 16.8px;
     padding-left: 20px;
@@ -67,17 +68,17 @@ body,html{
 #navibar li a:hover{
     background-color: rgb(33, 37, 46);
     color: white;
-    transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;/*Make style change easy to spot*/
 }
 /*Big Pic*/
 #Intro-header{
     float: left;
     width: 100%;
-    background-image: url("../pic/bg1.jpg");
+    background-image: url("../pic/bg1.jpg");/*Import External Image As Background*/
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;/*Background Image won't scroll*/
     padding-top: 10em;
     padding-bottom: 10em;
     color: white;
